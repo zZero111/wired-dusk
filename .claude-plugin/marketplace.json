@@ -1,0 +1,5 @@
+{
+  "name": "wired-dusk",
+  "owner": { "name": "zZero111" },
+  "plugins": [{ "name": "wired-dusk", "source": "./" }]
+}
