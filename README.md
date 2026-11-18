@@ -6,6 +6,10 @@ A late-90s dusk theme for the Claude desktop app's Code tab. Power lines hum acr
 
 ## The scene
 
+The backdrop is live: this is the same drawing the theme puts behind the chat, playing here on its own.
+
+![the animated scene: pulses of light travelling along the power lines, the dusk glow brightening and fading, dotted shadows breathing, a refresh bar rolling down through the scanlines and a blinking cursor in the corner](docs/scene.svg)
+
 ![close-up of the power lines, with small pulses of light running along them](docs/wires.png)
 
 - **Power lines** sag between two utility poles at the edges of the window. Small pulses of lavender light travel along each wire, as if signals are passing down the line.
@@ -60,3 +64,7 @@ In the desktop app, where `/plugin` does not run: click + next to the prompt box
 ## Credits
 
 `hooks/make-colors.js` is the colour helper that ships with Claude Code's plugin-authoring skill, copied in unchanged.
+
+## License
+
+[MIT](LICENSE)
