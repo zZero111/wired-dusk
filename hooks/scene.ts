@@ -173,7 +173,6 @@ export const SCENE = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 
   .cur { animation: blink 1.1s steps(1) infinite; }
   @keyframes blink { 50% { opacity: 0; } }
   text { font-family: "Courier New", monospace; font-size: 15px; fill: #8a63c4; letter-spacing: 2px; }
-  @media (max-aspect-ratio: 3/4) { .side { display: none; } }
   @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
 </style>
 <rect width="1600" height="1000" fill="url(#sky)"/>
